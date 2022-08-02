@@ -4,7 +4,7 @@ import sqlite3
 conn = sqlite3.connect('SGA_1_3_learners.db')
 c = conn.cursor()
 
-# create a table called Learners
+# Create a table called Learners
 # c.execute("""CREATE TABLE Learners(
 #                     First_name text,
 #                     Last_name text,
