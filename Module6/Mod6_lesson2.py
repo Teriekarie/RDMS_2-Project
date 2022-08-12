@@ -18,3 +18,12 @@ values = [10, 32, 64, 45, 24, 96, 60, 89]
 x = numpy.percentile(values, 75)
 
 print(x)
+
+# calculating interquartile range
+
+from scipy import stats
+values = [10, 32, 64, 45, 24, 96, 60, 89]
+
+x = stats.iqr(values)
+
+print(x)
